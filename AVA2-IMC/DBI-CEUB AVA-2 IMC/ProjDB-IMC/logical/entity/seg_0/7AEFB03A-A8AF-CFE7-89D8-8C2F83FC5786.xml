@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7AEFB03A-A8AF-CFE7-89D8-8C2F83FC5786" name="imc">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-04-03 23:19:19 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="65246CD2-E8E1-D897-2DAF-CAEB3390C412" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="peso" id="6919E0E3-B264-9293-BEFF-2F65C2052319">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-04-03 23:19:44 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="65246CD2-E8E1-D897-2DAF-CAEB3390C412" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="71B470C7-BF13-B350-D419-41A886B78DCF">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-04-03 23:19:58 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="65246CD2-E8E1-D897-2DAF-CAEB3390C412" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
