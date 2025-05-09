@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3983986-5F3C-671F-B1E8-783D0B380625" name="Cliente">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>F242ECBA-ED38-EE84-F086-20823F4632CF</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeCliente" id="9D36AE18-BA1B-B068-77CB-DCEDFB8C165C">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>9B64937E-A32B-CAD8-B604-A95F9B565A8D</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfCliente" id="DC7B511B-B961-3086-0F28-C5B866F20CA1">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>3477E125-7C97-04D8-4528-8987CFD8FB1B</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EnderecoCliente_EnderecoCliente_ID" id="F38936C0-4B7C-9B11-E75C-94E08CF51515">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:47 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D823624-7417-A74E-EC19-1EF5F3AC38DB" referredColumn="7F888301-AE21-D81E-4FEE-83D2A3B8FF53"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47CCA58E-D61C-4C48-C50F-1E4F742282CC" name="Cliente_PK">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>A34C08EC-474B-6F92-5192-544D95160143</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC7B511B-B961-3086-0F28-C5B866F20CA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE20AA5C-F353-1E19-A824-F6E98C06AC8B" name="Cliente__IDX">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:47 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E49F141E-B3C9-E5A9-A9C4-7BDABA807030</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F38936C0-4B7C-9B11-E75C-94E08CF51515"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA67BCC3-0429-8553-B80C-A39CCD37F3B6" name="Cliente_EnderecoCliente_FK">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:47 UTC</createdTime>
+<generatorID>E49F141E-B3C9-E5A9-A9C4-7BDABA807030</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F38936C0-4B7C-9B11-E75C-94E08CF51515"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

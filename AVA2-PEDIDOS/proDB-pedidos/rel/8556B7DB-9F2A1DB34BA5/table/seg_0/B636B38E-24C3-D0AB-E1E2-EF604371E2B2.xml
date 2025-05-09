@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B636B38E-24C3-D0AB-E1E2-EF604371E2B2" name="Vendedor">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>BE902834-FA10-C943-5952-7EC070D17014</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeVendedor" id="212BDE20-E188-6340-DD33-DD2170E0922B">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>BE9522E9-53D1-28B2-5C81-5A094065B249</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfVendedor" id="938E8F95-805F-9429-B864-6F7BEFA8F027">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>CE29181B-5F8C-66A6-2335-18003EA487BA</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="AAABB89F-4E1E-3F30-2F51-62BEFB76EC92">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>CB097A95-0A18-AD5C-F4CC-2650F2C7AA44</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="828804AA-190D-C64F-2D88-8B5F3071F0ED" name="Vendedor_PK">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>BA98C1D0-C386-7601-CFB5-7EB65C2E4FC4</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="212BDE20-E188-6340-DD33-DD2170E0922B"/>
+<colUsage columnID="938E8F95-805F-9429-B864-6F7BEFA8F027"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

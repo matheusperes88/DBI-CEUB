@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8144CBD-5A21-EB32-DF85-C21A147E7255" name="EnderecoCliente">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:17:48 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="8556B7DB-55D4-5550-B9D5-9F2A1DB34BA5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cepCliente" id="C912F5AD-DA2E-4310-647E-F5C252E05F51">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:18:12 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="8556B7DB-55D4-5550-B9D5-9F2A1DB34BA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="enderecoCliente" id="4D869660-DC8A-D472-5A9C-AE24DAD7F2E6">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:18:40 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="8556B7DB-55D4-5550-B9D5-9F2A1DB34BA5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroEnderecoCliente" id="E27BDC79-5971-D00A-DBDF-CF3F47554057">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:23:17 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="8556B7DB-55D4-5550-B9D5-9F2A1DB34BA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroEnderecocliente" id="E06F58A5-878F-FCF9-AF53-347027850A66">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:24:03 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="8556B7DB-55D4-5550-B9D5-9F2A1DB34BA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lorgadouroCliente" id="A5E129A8-D79D-F120-F882-7320E10D9956">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:24:32 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="8556B7DB-55D4-5550-B9D5-9F2A1DB34BA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEnderecoCliente" id="DF2D0D6B-51B3-1CAE-EF35-F0F31FF7F28D">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:24:57 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="8556B7DB-55D4-5550-B9D5-9F2A1DB34BA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeEnderecoCliente" id="9C59BB13-80D9-B85C-764B-0ED6B96D6B77">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:25:40 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="8556B7DB-55D4-5550-B9D5-9F2A1DB34BA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEnderecoCliente" id="64AF4749-D78B-BC9E-D18E-041CEB7989C4">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:26:13 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="8556B7DB-55D4-5550-B9D5-9F2A1DB34BA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="14AECDD4-E800-310B-D16B-FAF32F51D13C">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:38:52 UTC</createdTime>
+<generatorID>E49F141E-B3C9-E5A9-A9C4-7BDABA807030</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="8556B7DB-55D4-5550-B9D5-9F2A1DB34BA5" value="true"/>
+</engineerTo>
+<referedAttribute>3477E125-7C97-04D8-4528-8987CFD8FB1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

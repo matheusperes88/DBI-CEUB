@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE902834-FA10-C943-5952-7EC070D17014" name="Vendedor">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-08 23:55:47 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="8556B7DB-55D4-5550-B9D5-9F2A1DB34BA5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomeVendedor" id="BE9522E9-53D1-28B2-5C81-5A094065B249">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-08 23:56:05 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="8556B7DB-55D4-5550-B9D5-9F2A1DB34BA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfVendedor" id="CE29181B-5F8C-66A6-2335-18003EA487BA">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-08 23:57:05 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="8556B7DB-55D4-5550-B9D5-9F2A1DB34BA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="CB097A95-0A18-AD5C-F4CC-2650F2C7AA44">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:36:54 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="8556B7DB-55D4-5550-B9D5-9F2A1DB34BA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BA98C1D0-C386-7601-CFB5-7EB65C2E4FC4" name="Vendedor PK">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:15:47 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="8556B7DB-55D4-5550-B9D5-9F2A1DB34BA5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE9522E9-53D1-28B2-5C81-5A094065B249</attributeRef>
+<attributeRef>CE29181B-5F8C-66A6-2335-18003EA487BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB8A9258-5902-A06E-565C-E8535147FFEB" name="ItensPedidos">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>EC5BA595-FC0D-A03C-3C70-A21F76E5E641</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numeroPedido" id="C79E5654-D3F0-4E21-BA18-7BAA972F66B5">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>9B53BB52-EADD-2298-B24B-0FF7FEC1819B</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigoProdulto" id="67EDD579-79A4-34AF-DFC1-6006B8C82DC8">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>151C9CC4-E78A-73EE-FBC0-8FAD217CDD0A</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeProdulto" id="7EF371CE-911C-571E-B54A-7F7B50656333">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>48A88855-CD1D-4737-AF51-6479DB4DBC35</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadeProdulto" id="9B6A28D3-9FF1-5E4D-C4F3-232929438887">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>E62A0DDE-6927-5939-EAD0-B1573FB99AE2</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoUnitarioProdulto" id="DE43C7FF-643A-0E3F-50DC-9620EFF3F7F7">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>FD6FD005-540C-2C4E-C2A2-2D2E557FD5D4</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_cpfCliente" id="7EA400C3-5A31-898C-B4F0-2FF908367EA0">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>C08370BE-D501-6FE6-8877-07DA8FCCC127</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CA07986-D542-5F0D-81CD-79588AF05EC5" referredColumn="DC7B511B-B961-3086-0F28-C5B866F20CA1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25B4CDB5-12CF-09F0-88EB-B5FB16FC6B53" name="ItensPedidos_PK">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>317A06C8-2514-1B30-C2E4-8D354061A803</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EA400C3-5A31-898C-B4F0-2FF908367EA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B714106C-C407-23DC-22F7-9538DC2D03A9" name="ItensPedidos_Cliente_FK">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-09 00:39:46 UTC</createdTime>
+<generatorID>7DF0362C-FDD5-D561-BE83-B67276CDFA7D</generatorID>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EA400C3-5A31-898C-B4F0-2FF908367EA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

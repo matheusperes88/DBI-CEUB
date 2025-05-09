@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="proDB-pedidos" id="CECC007E-D038-C57C-C585-45C847576BB9" version="3.5">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-08 23:43:51 UTC</createdTime>
+<ownerDesignName>proDB-pedidos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CECC007E-D038-C57C-C585-45C847576BB9</designId>
+</OSDM_Design>
