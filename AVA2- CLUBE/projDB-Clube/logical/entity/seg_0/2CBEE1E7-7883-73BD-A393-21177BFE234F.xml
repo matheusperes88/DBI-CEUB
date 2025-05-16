@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2CBEE1E7-7883-73BD-A393-21177BFE234F" name="EnderecoTitular">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-16 00:22:12 UTC</createdTime>
+<ownerDesignName>projDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B9772BD1-E072-923D-761B-8B0BEDB77190" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="83C58E83-CCFC-3766-BA6F-31003DC60706">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-16 00:22:43 UTC</createdTime>
+<ownerDesignName>projDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B9772BD1-E072-923D-761B-8B0BEDB77190" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepTitular" id="3782AC43-CE9C-1ECA-53D2-C7B95F0887C4">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-16 00:23:29 UTC</createdTime>
+<ownerDesignName>projDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B9772BD1-E072-923D-761B-8B0BEDB77190" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeTitular" id="37BFF13F-A7E8-F728-ED49-7202C662C792">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-16 00:24:16 UTC</createdTime>
+<ownerDesignName>projDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B9772BD1-E072-923D-761B-8B0BEDB77190" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadoTitular" id="48FE6B08-F895-DEAD-A32E-7CF04A48B9D2">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-16 00:24:50 UTC</createdTime>
+<ownerDesignName>projDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B9772BD1-E072-923D-761B-8B0BEDB77190" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="6AB0902F-5749-B4D8-79BC-1C3203D2D63E">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-16 00:37:26 UTC</createdTime>
+<generatorID>C70F133E-2AB8-A427-FA2F-9C4A7B1FC597</generatorID>
+<ownerDesignName>projDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B9772BD1-E072-923D-761B-8B0BEDB77190" value="true"/>
+</engineerTo>
+<referedAttribute>7194A366-77B9-1A4E-EC1C-A679511225C3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7BFE829A-35A3-EFBC-8A15-BC1799104178" name="EnderecoTitular PK">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-16 00:23:14 UTC</createdTime>
+<ownerDesignName>projDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B9772BD1-E072-923D-761B-8B0BEDB77190" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>83C58E83-CCFC-3766-BA6F-31003DC60706</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

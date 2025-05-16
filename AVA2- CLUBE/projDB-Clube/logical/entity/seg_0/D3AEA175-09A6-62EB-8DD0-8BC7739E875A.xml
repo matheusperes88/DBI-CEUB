@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3AEA175-09A6-62EB-8DD0-8BC7739E875A" name="EnderecoDepentente">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-16 00:26:10 UTC</createdTime>
+<ownerDesignName>projDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B9772BD1-E072-923D-761B-8B0BEDB77190" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfDependente" id="789C8DAF-02B7-DA4E-FF01-5113CA28463B">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-16 00:27:12 UTC</createdTime>
+<ownerDesignName>projDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B9772BD1-E072-923D-761B-8B0BEDB77190" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepDepedente" id="6A2B30A6-2564-DBA5-4FC8-6123CCF9BE8E">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-16 00:29:55 UTC</createdTime>
+<ownerDesignName>projDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B9772BD1-E072-923D-761B-8B0BEDB77190" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeDependente" id="495536CB-9269-D763-EC17-0848D6FC4CED">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-16 00:30:29 UTC</createdTime>
+<ownerDesignName>projDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B9772BD1-E072-923D-761B-8B0BEDB77190" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadoDependente" id="BCFFCEDE-F298-A220-829D-19BCFFC7A8A2">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-16 00:30:46 UTC</createdTime>
+<ownerDesignName>projDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B9772BD1-E072-923D-761B-8B0BEDB77190" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDepedente" id="901E3E1B-3CF1-DC22-F49C-44E35127C916">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-16 00:38:29 UTC</createdTime>
+<generatorID>360F613D-D466-ACCA-9B9A-6F5DCB76BEE0</generatorID>
+<ownerDesignName>projDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B9772BD1-E072-923D-761B-8B0BEDB77190" value="true"/>
+</engineerTo>
+<referedAttribute>3AB6C6F7-F82E-3FBE-5FF4-D2F55C6A4217</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB9C0F80-9FD7-6E84-0326-738F705C8B95" name="EnderecoDepentente PK">
+<createdBy>matheus.peres</createdBy>
+<createdTime>2025-05-16 00:27:31 UTC</createdTime>
+<ownerDesignName>projDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="B9772BD1-E072-923D-761B-8B0BEDB77190" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>789C8DAF-02B7-DA4E-FF01-5113CA28463B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
